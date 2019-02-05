@@ -1,14 +1,18 @@
 .header {
   background-color: #fecc02;
-  width: 100%;
   height: 80px;
   display: flex;
   align-items: center;
 }
 
 .header img {
-  width: 180px;
-  margin-left: 200px;
+  width: 190px;
   margin-top: 0px;
   object-fit: contain;
+}
+
+@media (max-width: 1024px) {
+  .header {
+    margin: auto;
+  }
 }

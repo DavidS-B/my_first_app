@@ -27,3 +27,12 @@ li {
 #bold2 {
   font-weight: 700;
 }
+
+@media (max-width: 1024px) {
+  ul {
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+  }
+}

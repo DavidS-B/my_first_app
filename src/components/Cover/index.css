@@ -1,5 +1,13 @@
 .cover img {
-  margin-left: 210px;
   border: solid;
   border-width: thin;
+}
+
+@media (max-width: 1024px) {
+  .cover img {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
 }

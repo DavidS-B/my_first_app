@@ -11,7 +11,7 @@ import Title from "./components/Title/";
 class App extends Component {
   render() {
     return (
-      <div>
+      <div id="all">
         <Header>Allocine</Header>
         <Title>2001 : L'Odyssée de l'Espace</Title>
         <div className="container">
