@@ -1,0 +1,29 @@
+ul {
+  list-style-type: none;
+  font-size: 13px;
+  line-height: 19px;
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  margin-top: 5px;
+}
+
+.label {
+  color: #b3b3b3;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text {
+  color: #2b82c8;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#bold1 {
+  font-weight: 700;
+}
+
+#bold2 {
+  font-weight: 700;
+}
